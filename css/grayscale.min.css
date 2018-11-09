@@ -4,11 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 #mainNav {
- 		min-height:56px;background-color:#fff
+ 		min-height:56px;
+ 		background-color:#fff
 }
 #mainNav .navbar-toggler {
  		font-size:80%;
- 		padding:.75rem;color:#64a19d;border:1px solid #64a19d
+ 		padding:.75rem;
+ 		color:#64a19d;
+ 		border:1px solid #64a19d
 }
 #mainNav .navbar-toggler:focus {
  			outline:0
@@ -20,10 +23,13 @@
  	
 }
 #mainNav .navbar-nav .nav-item:hover{
- 	color:fade(white,80%);outline:0;background-color:transparent
+ 	color:fade(white,80%);
+ 	outline:0;
+ 	background-color:transparent
 }
 #mainNav .navbar-nav .nav-item:active,#mainNav .navbar-nav .nav-item:focus{
- 			outline:0;background-color:transparent
+ 	outline:0;
+ 	background-color:transparent
 }
 @media (min-width:992px){
 	#mainNav{
@@ -31,7 +37,8 @@
 		padding-bottom:0;
 		border-bottom:none;
 		background-color:transparent;
-		-webkit-transition:background-color .3s ease-in-out;transition:background-color .3s ease-in-out
+		-webkit-transition:background-color .3s ease-in-out;
+		transition:background-color .3s ease-in-out
 	}
 	#mainNav .navbar-brand{
 		padding:.5rem 0;color:rgba(255,255,255,.5)
@@ -62,15 +69,15 @@
 
 	}
 	#mainNav.navbar-shrink .nav-link:hover{
-		color:#64a19d
+		color:#3E43B4
 	}
 	#mainNav.navbar-shrink .nav-link:active{
 		color:#467370
 	}
 	#mainNav.navbar-shrink .nav-link.active{
-		color:#64a19d;
+		color:#171DA5;
 		outline:0;
-		border-bottom:.25rem solid #64a19d
+		border-bottom:.25rem solid #171DA5
 	}
 }
 .masthead{
@@ -131,17 +138,17 @@
 	border:0
 }
 .btn-primary{
-	background-color:#64a19d
+	background-color:#2E33AD
 }
 .btn-primary:hover{
-	background-color:#4f837f
+	background-color:#171DA5
 }
 .btn-primary:focus{
-	background-color:#4f837f;
+	background-color:#171DA5;
 	color:#fff
 }
 .btn-primary:active{
-	background-color:#467370!important
+	background-color:#171DA5!important
 }
 .about-section{
 	padding-top:10rem;
@@ -160,7 +167,7 @@
 @media (min-width:992px){
 	.projects-section .featured-text{
 		padding:0 0 0 2rem;
-		border-left:.5rem solid #64a19d
+		border-left:.5rem solid #3E43B4
 	}
 }
 .projects-section .project-text{
@@ -172,15 +179,16 @@
 		padding:5rem
 	}
 	.projects-section .project-text hr{
-		border-color:#64a19d;
+		border-color:#3E43B4;
 		border-width:.25rem;
 		width:30%
 	}
 }
 .signup-section{
 	padding:10rem 0;
-	background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-signup.jpg);
-	background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);
+	/*background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-signup.jpg);
+	background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);*/
+	background-color: #7C7FCC;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-attachment:scroll;
